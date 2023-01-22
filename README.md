@@ -14,7 +14,7 @@ Este aplicação surge no seguimento e desafio lançado na Unidade de Tecnologia
 **Passo 3** http//:127.0.0.1:5000
 
 
-**[screenshot]**
+**[screenshots]**
 
 ![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot_01?raw=true "pt speech recogn")
 
