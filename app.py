@@ -10,7 +10,7 @@ import speech_recognition as sr
 app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 
-# Funcao que cria o formulario (importa wav e transcreve para texo com  speechrecognizer
+# Funcao que cria o formulario e importa o ficherio audio wav
 def pagina():
     transcript = ""
     if request.method == "POST":
@@ -22,7 +22,7 @@ def pagina():
         file = request.files["file"]
         if file.filename == "":
             return redirect(request.url)
-
+        
         if file:
             recognizer = sr.Recognizer()
             audioFile = sr.AudioFile(file)
