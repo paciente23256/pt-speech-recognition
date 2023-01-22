@@ -1,9 +1,9 @@
 # |P|T|  |S|P|E|E|C|H|  |R|E|C|O|G|N|I|T|I|O|N|
 
-Aplicação Web desenvolvida com Flask, Speechrecognition e Pyaudio.
+Web App desenvolvida com Flask, Speechrecognition e Pyaudio.
 
-Aplicação desenvolvida em python, permite a importação e reconhecimento de ficheiros audio, formato .wav em português, que por sua vez os transcreve em texto para ecran.
-Esta aplicação, simples e com apoio nas bibliotecas, surge no seguimento e desafio lançado pela Unidade de Tecnologias Biometricas do Mestrado de Engenharia de Segurança Informática.
+Aplicação desenvolvida em python, permite a importação e reconhecimento de ficheiros audio, formato .wav em português, que por sua vez os transcreve em texto para o ecran.
+Este projeto, simples e com apoio das bibliotecas, surge no desafio lançado na Unidade de Tecnologias Biométricas do Mestrado de Engenharia de Segurança Informática.
 
 # HOW TO:
 
