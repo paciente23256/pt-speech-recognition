@@ -16,4 +16,6 @@ Este aplicação surge no seguimento e desafio lançado na Unidade de Tecnologia
 
 **[screenshot]**
 
-![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot?raw=true "pt speech recogn")
+![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot_01?raw=true "pt speech recogn")
+
+![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot_02?raw=true "pt speech recogn")
