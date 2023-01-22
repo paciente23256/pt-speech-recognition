@@ -1,4 +1,4 @@
-# |P|T|  |S|P|E|E|C|H|  |R|E|C|O|G|N|I|N|T|I|O|N|
+# |P|T|  |S|P|E|E|C|H|  |R|E|C|O|G|N|I|T|I|O|N|
 
 Aplicação Web desenvolvida com Flask, Speechrecognition e Pyaudio.
 
