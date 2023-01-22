@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 # MESI-TB 2023 - Aluno # 23256
-# Web App com Flask e Audio 2 text converter
+# Web App com Flask speechrecognition to text converter
 
 #Bibibliotecas
 from flask import Flask, render_template, request, redirect
