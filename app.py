@@ -1,12 +1,15 @@
 #!/usr/bin/python3
-# MESI-TB 2023 - Aluno # 23256
-# Web App com Flask speechrecognition to text converter
 
+"""
+MESI-TB 2023 - Aluno # 23256
+PT SpeechRecognition - Web App com Flask speechrecognition e pyaudio 
+Converter ficheiros audio c/ format WAV em português para texto no ecran.
+"""
 #Bibibliotecas
 from flask import Flask, render_template, request, redirect
 import speech_recognition as sr
 
-# Iniciar App com Flask com os metodos get e post
+# Excuta WebApp com define path da app e os metodos get e post.
 app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 
@@ -22,13 +25,13 @@ def pagina():
         file = request.files["file"]
         if file.filename == "":
             return redirect(request.url)
-        
+        # reconhecimento e conversão do data 
         if file:
             recognizer = sr.Recognizer()
             audioFile = sr.AudioFile(file)
             with audioFile as source:
                 data = recognizer.record(source)
-            transcript = recognizer.recognize_google(data, language='pt-PT') # pode ser alterado manualmente para a lingua pretendia por ex. es-ES
+            transcript = recognizer.recognize_google(data, language='pt-PT') # Trabalhos futuros automatizar o recolhecimento auto
 
     return render_template('app.html', transcript=transcript) # importa o ficheiro template app.html
 
