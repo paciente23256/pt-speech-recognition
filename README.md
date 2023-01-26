@@ -7,11 +7,15 @@ Este projeto, simples e com apoio das bibliotecas, surge no desafio lançado na 
 
 # HOW TO:
 
-**Passo 1:** pip install -r requirements.txt
+**Passo 1:*** git clone https://github.com/paciente23256/pt-speech-recognition.git
+              cd pt-speech-recognition/
+              
+**Passo 2:** pip install -r requirements.txt
 
 **Passo 2** python3 app.py
 
 **Passo 3** http//:127.0.0.1:5000
+
 
 
 **[screenshots]**
