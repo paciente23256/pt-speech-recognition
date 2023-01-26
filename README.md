@@ -7,15 +7,23 @@ Este projeto, simples e com apoio das bibliotecas, surge no desafio lançado na 
 
 # HOW TO:
 
-**Passo 1:*** git clone https://github.com/paciente23256/pt-speech-recognition.git
+**Passo 1:*** Fazer o download do repositório. 
 
-              cd pt-speech-recognition/
+    git clone https://github.com/paciente23256/pt-speech-recognition.git
+
+    cd pt-speech-recognition/
               
-**Passo 2:** pip install -r requirements.txt
+**Passo 2:** - Instalar Bibliotecas python spechrecognition pyaudio e flask
 
-**Passo 2** python3 app.py
+    pip install -r requirements.txt
 
-**Passo 3** http//:127.0.0.1:5000
+**Passo 2**: Excutar a aplicação.
+
+    python3 app.py
+
+**Passo 3** - Abrir no browser.
+  
+    http//:127.0.0.1:5000
 
 
 
