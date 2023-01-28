@@ -2,10 +2,12 @@ h2, p, input {
     font-family: 'Lato', sans-serif;
 }
 
+h3, p, input {
+    font-family: 'Lato', sans-serif;
+}
 h4, p, input {
     font-family: 'Lato', sans-serif;
 }
-
 #speechContainer {
     margin: 20px;
 }
