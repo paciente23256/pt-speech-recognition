@@ -17,7 +17,7 @@ Este projeto, simples e com apoio das bibliotecas, surge no desafio lançado na 
 
     pip install -r requirements.txt
 
-**Passo 2**: Excutar a aplicação.
+**Passo 2**: Executar a aplicação.
 
     sudo python3 app.py
 
@@ -26,9 +26,9 @@ Este projeto, simples e com apoio das bibliotecas, surge no desafio lançado na 
     http//:127.0.0.1:5000
 
 
-![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot_00?raw=true "pt speech recogn")
-
 **[screenshots]**
+
+![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot_00?raw=true "pt speech recogn")
 
 ![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot_01?raw=true "pt speech recogn")
 
