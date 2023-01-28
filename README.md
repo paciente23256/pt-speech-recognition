@@ -28,7 +28,6 @@ Este projeto, simples e com apoio das bibliotecas, surge no desafio lançado na 
 
 ![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot_00?raw=true "pt speech recogn")
 
-
 **[screenshots]**
 
 ![pt speech recogn](https://github.com/paciente23256/speech-recognition/blob/main/static/app_sceenshot_01?raw=true "pt speech recogn")
