@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 """
-MESI-TB 2023 - Aluno # 23256
-PT SpeechRecognition - Web App com Flask speechrecognition e Pyaudio
-Reconhecimento de ficheiros audio formato WAV em português  e transcreve
-para texto no ecran.
+MESI-TB 2023 - Aluno # 23256 PT SpeechRecognition -
+Web App com Flask speechrecognition e Pyaudio -
+Reconhecimento de ficheiros audio formato WAV em português  e transcreve para texto no ecran.
 """
 # Bibibliotecas
 from flask import Flask, render_template, request, redirect
