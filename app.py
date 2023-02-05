@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """
 MESI-TB 2023 - Aluno # 23256
-PT SpeechRecognition - Web App com Flask speechrecognition e pyaudio 
-Reconhecimento de ficheiros audio c/ format WAV em português  e transcreve
+PT SpeechRecognition - Web App com Flask speechrecognition e Pyaudio
+Reconhecimento de ficheiros audio formato WAV em português  e transcreve
 para texto no ecran.
 """
 # Bibibliotecas
@@ -25,7 +25,7 @@ def pagina():
         file = request.files["file"]
         if file.filename == "":
             return redirect(request.url)
-        # reconhecimento e conversão do data 
+        # reconhecimento e conversão dos dados
         if file:
             recognizer = sr.Recognizer()
             audioFile = sr.AudioFile(file)
