@@ -13,10 +13,6 @@ Este projeto, simples e com apoio das bibliotecas, surge no desafio lançado na 
 
     cd pt-speech-recognition/
               
-**Passo 2:** - Instalar Bibliotecas python spechrecognition pyaudio e flask
-
-    pip install -r requirements.txt
-
 **As Biliotecas:**
 
 **SpeechRecognition** - Biblioteca para realização de reconhecimento de fala, com suporte para diversos motores e APIs, online e offline.
@@ -24,6 +20,11 @@ Este projeto, simples e com apoio das bibliotecas, surge no desafio lançado na 
 **Pyaudio** - O PyAudio fornece ligações Python para PortAudio v19, a biblioteca de E/S de áudio multiplataforma. Com o PyAudio, pode-se facilmente usar o Python para reproduzir e gravar áudio em várias plataformas, como GNU/Linux, Microsoft Windows e Apple macOS.
 
 **Flask** - Flask é uma pequena framework web escrita em Python. É classificada como um microframework porque não requer ferramentas ou bibliotecas particulares, mantendo um núcleo simples, porém, extensível
+
+**Passo 2:** - Instalar Bibliotecas python spechrecognition pyaudio e flask
+
+    pip install -r requirements.txt
+
 
 **Passo 3**: Executar a aplicação.
 
