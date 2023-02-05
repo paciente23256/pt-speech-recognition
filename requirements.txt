@@ -1,4 +1,3 @@
 SpeechRecognition
 Pyaudio
 Flask
-opencv-python
